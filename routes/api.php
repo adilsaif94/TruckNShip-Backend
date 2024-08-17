@@ -17,24 +17,24 @@ use App\Http\Controllers\ShipmentController;
 |
 */
 
-// Route::get('/test',function () {
-//     p("Working");
-// });
+Route::get('/test',function () {
+    p("Working");
+});
 
-// Route::post('user/store','App\Http\Controllers\Api\UserController@store');
-// Route::get('users/get', [UserController::class,'index']);
-// Route::get('user/{id}', [UserController::class,'show']); 
-// Route::delete('user/delete/{id}', [UserController::class,'destroy']);
-// Route::put('update/{id}', [UserController::class,'update']); // to update full data
+Route::post('user/store','App\Http\Controllers\Api\UserController@store');
+Route::get('users/get', [UserController::class,'index']);
+Route::get('user/{id}', [UserController::class,'show']); 
+Route::delete('user/delete/{id}', [UserController::class,'destroy']);
+Route::put('update/{id}', [UserController::class,'update']); // to update full data
 
-// Route::post('/register', [UserController::class,'register']);
-// Route::post('/login', [UserController::class,'login']);
+Route::post('/register', [UserController::class,'register']);
+Route::post('/login', [UserController::class,'login']);
 
-// // not to open  directly we use middleware
+// not to open  directly we use middleware
 
-// Route::middleware('auth:api')->group(function () {
-//     Route::get('/user/{id}', [UserController::class,'getUser']);
-// });
+Route::middleware('auth:api')->group(function () {
+    Route::get('/user/{id}', [UserController::class,'getUser']);
+});
 
 // for shipments
 
