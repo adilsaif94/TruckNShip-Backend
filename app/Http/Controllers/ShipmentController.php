@@ -10,7 +10,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 
 class ShipmentController extends Controller {
-
+    
     public function updateStatus(Request $request, $id) {
         \Log::info('Request Data:', $request->all());
         \Log::info('Updating status for shipment ID: ' . $id);
@@ -119,6 +119,21 @@ class ShipmentController extends Controller {
         return response()->json( $shipment, 201 );
     }
 
-   
+    public function show( $id ) {
+        return Shipment::findOrFail( $id );
+    }
+
+    public function update( Request $request, $id ) {
+        $shipment = Shipment::findOrFail( $id );
+        $shipment->update( $request->all() );
+
+        return response()->json( $shipment, 200 );
+    }
+
+    public function destroy( $id ) {
+        Shipment::destroy( $id );
+
+        return response()->json( null, 204 );
+    }
 }
 
