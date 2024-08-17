@@ -1,15 +1,14 @@
 # Preview of Application
 <br><br/>
-<br><br/>
-<br><br/>
-# Login & Signup
+
+### Login & Signup
 <br><br/>
 <img src="https://github.com/user-attachments/assets/ec5d5ebd-0a3a-4ac0-b32f-baa8bdec06e9" alt="Screenshot_2024-08-17-17-45-02-56_1be1632cfeeb68e031b6f018c6f171ca" width="300" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://github.com/user-attachments/assets/a78de8db-7f9e-420a-b6ac-6296c7797c24" alt="Screenshot_2024-08-17-18-31-37-92_1be1632cfeeb68e031b6f018c6f171ca"  width="300" />
 <br><br/>
 <br><br/>
-# Customer Flow
+### Customer Flow
 <br><br/>
 <img src="https://github.com/user-attachments/assets/a9899233-f9b2-4bcf-ba70-266a03b1ab8a" alt="Screenshot_2024-08-17-20-03-36-78_1be1632cfeeb68e031b6f018c6f171ca"  width="300" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -31,7 +30,7 @@
 <br><br/>
 <br><br/>
 <br><br/>
-# Admin Flow
+### Admin Flow
 <br><br/>
 <br><br/>
 <img src="https://github.com/user-attachments/assets/a95e91f0-111e-4376-a073-0e53316d9d11" alt="Screenshot_2024-08-17-20-14-23-55_1be1632cfeeb68e031b6f018c6f171ca"  width="300" />
@@ -48,7 +47,7 @@
 <br><br/>
 <br><br/>
 <br><br/>
-# Database
+### Database
 <br><br/>
 <br><br/>
 
@@ -56,5 +55,37 @@
 ![Screenshot (59)](https://github.com/user-attachments/assets/ed3a18cb-5936-4bb3-90e1-512f83fc08c5)
 
 ![Screenshot (58)](https://github.com/user-attachments/assets/3cb4af97-d17f-470b-bc51-6799b7ab567e)
+
+<br><br/>
+<br><br/>
+
+## Backend Setup (Laravel)
+
+This guide will help you set up and run the Laravel backend API for the application.
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- **PHP**: Make sure you have PHP installed (preferably PHP 7.4 or higher).
+- **Composer**: Ensure you have Composer installed to manage PHP dependencies. You can download it from [Composer's official website](https://getcomposer.org/).
+- **MySQL or PostgreSQL**: Set up a MySQL or PostgreSQL database for your application.
+
+### Installing Dependencies
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/your-laravel-repo.git
+   cd your-laravel-repo
+   composer install
+
+## To start
+```bash
+php artisan serve --host=your-local-ip-address --port=8000
+
+
+
+
 
 
